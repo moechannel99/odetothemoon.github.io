@@ -357,35 +357,14 @@ body {
 .bg-no {
   background-color: var(--no-rank);
 }
-.bg-ac {
-  background-color: var(--ac-rank);
+.bg-a {
+  background-color: var(--a-rank);
 }
-.bg-as {
-  background-color: var(--as-rank);
+.bg-b {
+  background-color: var(--b-rank);
 }
-.bg-at {
-  background-color: var(--at-rank);
-}
-.bg-e {
-  background-color: var(--e-rank);
-}
-.bg-n {
-  background-color: var(--n-rank);
-}
-.bg-o {
-  background-color: var(--o-rank);
-}
-.bg-s {
-  background-color: var(--s-rank);
-}
-.bg-tb {
-  background-color: var(--tb-rank);
-}
-.bg-tx {
-  background-color: var(--tx-rank);
-}
-.bg-v {
-  background-color: var(--v-rank);
+.bg-c {
+  background-color: var(--c-rank);
 }
 .eliminated .ranking__entry-icon-badge {
   background-color: var(--no-rank);
