@@ -16,7 +16,7 @@
   /* ranking border colors */
   --a-rank: #BA82FF;
   --b-rank: #9082FF;
-  --c-rank: #0082FF;
+  --c-rank: #0082FFCC;
 }
 
 p {
@@ -209,8 +209,8 @@ body {
   left: 0;
   right: 0;
   margin: auto;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   background-color: #e0e0e0;
   background-image: url(assets/crown.png);
@@ -220,35 +220,14 @@ body {
   background-origin: content-box;
 }
 /* Different entry borders */
-.ac-rank-border {
-  border: 5px solid var(--ac-rank);
+.a-rank-border {
+  border: 5px solid var(--a-rank);
 }
-.as-rank-border {
-  border: 5px solid var(--as-rank);
+.b-rank-border {
+  border: 5px solid var(--b-rank);
 }
-.at-rank-border {
-  border: 5px solid var(--at-rank);
-}
-.e-rank-border {
-  border: 5px solid var(--e-rank);
-}
-.n-rank-border {
-  border: 5px solid var(--n-rank);
-}
-.o-rank-border {
-  border: 5px solid var(--o-rank);
-}
-.s-rank-border {
-  border: 5px solid var(--s-rank);
-}
-.tb-rank-border {
-  border: 5px solid var(--tb-rank);
-}
-.tx-rank-border {
-  border: 5px solid var(--tx-rank);
-}
-.v-rank-border {
-  border: 5px solid var(--v-rank);
+.c-rank-border {
+  border: 5px solid var(--c-rank);
 }
 .no-rank-border {
   border: none;
